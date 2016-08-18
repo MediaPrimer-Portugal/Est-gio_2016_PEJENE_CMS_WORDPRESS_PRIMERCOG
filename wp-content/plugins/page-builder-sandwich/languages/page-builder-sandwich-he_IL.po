@@ -1,0 +1,332 @@
+# Copyright (C) 2016 Page Builder Sandwich
+# This file is distributed under the same license as the Page Builder Sandwich package.
+# Translators:
+# ‫גיא עמיאל‬‎ <mitogadv@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Page Builder Sandwich\n"
+"PO-Revision-Date: 2016-08-16 18:13+0000\n"
+"Last-Translator: Gambit Technologies <info@gambit.ph>\n"
+"Language-Team: Hebrew (Israel) (http://www.transifex.com/gambit-technologies-inc/page-builder-sandwich/language/he_IL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: class-element-newsletter.php:195
+msgid "Missing parameters. Please contact the admin."
+msgstr "חסרים פרמטרים, אנא צור קשר עם המנהל."
+
+#: class-element-newsletter.php:200
+msgid "Security error, please refresh the page and try again."
+msgstr "בעיית אבטחה, רענן את הדף ונסה שוב."
+
+#: class-element-newsletter.php:207
+msgid "Missing newsletter settings. Please contact the admin."
+msgstr "חסרים הגדרות לניולזטר. אנא צור קשר עם המנהל."
+
+#: class-element-newsletter.php:210
+msgid "Invalid email address."
+msgstr "כתובת דוא\"ל לא חוקית."
+
+#: class-element-newsletter.php217, class-element-newsletter.php223,
+#: class-element-newsletter.php244, class-element-newsletter.php281,
+#: class-element-newsletter.php:321
+msgid "Invalid newsletter settings. Please contact the admin."
+msgstr "הגדרות ניוזלטר לא חוקיות. אנא צור קשר עם המנהל."
+
+#: class-element-newsletter.php:241
+msgid "MailPoet plugin not found. Please contact the admin."
+msgstr "MailPoet פלאגין לא נמצא. אנא צור קשר עם המנהל."
+
+#: class-element-newsletter.php:264
+msgid "Email address is already subscribed."
+msgstr "כתובת דוא\"ל כבר רשומה."
+
+#: class-element-newsletter.php267, class-element-newsletter.php307,
+#: class-element-newsletter.php:362
+msgid "Something went wrong. Please contact the admin."
+msgstr "משהו השתבש. אנא צור קשר עם המנהל."
+
+#: class-element-sidebar.php:37
+msgid "— Select Sidebar —"
+msgstr "- בחר סרגל צד -"
+
+#: class-element-sidebar.php:44
+msgid ""
+"These are the existing sidebars/widget area in your site. %sManage widgets%s"
+msgstr "אלה הם סרגלי הצד / ווידג'טים הקיימים באתר שלך. %sנהל ווידג'טים%s"
+
+#: class-icons.php:674
+msgid "Uploaded Icons"
+msgstr "העלה אייקונים"
+
+#: class-icons.php:675
+msgid "%sCinema Icons%s by %sIcons8%s"
+msgstr "%sCinema Icons%s ע\"י %sIcons8%s"
+
+#: class-icons.php:676
+msgid "%sDashicons%s"
+msgstr "%sDashicons%s"
+
+#: class-icons.php:677
+msgid "%sFont Awesome%s"
+msgstr "%sFont Awesome%s"
+
+#: class-icons.php:678
+msgid "%sGenericons%s by %sAutomattic%s"
+msgstr "%sGenericons%s ע\"י %sAutomattic%s"
+
+#: class-icons.php:679
+msgid "%sKameleon%s by %sWebalys - Get more icons%s"
+msgstr "%sKameleon%s ע\"י %sWebalys - עוד אייקונים%s"
+
+#: class-icons.php:680
+msgid "%sNucleo%s by %sNucleoApp - Get more icons%s"
+msgstr "%sNucleo%s ע\"י %sNucleoApp - עוד אייקונים%s"
+
+#: class-icons.php:681
+msgid "%sStreamline%s by %sWebalys - Get more icons%s"
+msgstr "%sStreamline%s ע\"י %sWebalys - עוד אייקונים%s"
+
+#: class-icons.php:682
+msgid "Icons by %sTaras Shypka%s"
+msgstr "אייקונים ע\"י %sTaras Shypka%s"
+
+#: class-inspector.php62, class-translations.php:378
+msgid "Select one"
+msgstr ""
+
+#: class-inspector.php:74
+msgid "Create a %s first"
+msgstr ""
+
+#: class-licensing.php46, class-page-builder-sandwich.php:835
+msgid "Enter License Key to Receive Updates"
+msgstr "הזן מפתח רישיון כדי לקבל עדכונים"
+
+#: class-licensing.php47, class-page-builder-sandwich.php:836
+msgid "Verify License"
+msgstr "ודא רישיון"
+
+#: class-licensing.php51, class-page-builder-sandwich.php:837
+msgid "You will be notified of plugin updates. Your License key is"
+msgstr "תקבלו הודעה על עדכוני הפלאגין. מפתח הרישיון שלך"
+
+#: class-licensing.php52, class-page-builder-sandwich.php:838
+msgid "Deactivate License"
+msgstr "השבת רישיון"
+
+#: class-licensing.php:59
+msgid "Your License Key"
+msgstr "מפתח הרישיון שלך"
+
+#: class-licensing.php93, class-licensing.php:98
+msgid "Security error, please refresh and try again."
+msgstr "שגיאת אבטחה, רענן ונסה שוב."
+
+#: class-licensing.php:102
+msgid "Please provide your license key."
+msgstr "אנא ספק את מפתח הרישיון שלך."
+
+#: class-licensing.php:128
+msgid "License checking failed."
+msgstr "בדיקת הרישיון נכשלה."
+
+#: class-licensing.php:142
+msgid "License is inactive or invalid."
+msgstr "הרישיון אינו פעיל או לא חוקי."
+
+#: class-licensing.php:171
+msgid "License deactivation failed."
+msgstr "האקטיבציה של הרישיון נכשלה."
+
+#: class-licensing.php:184
+msgid "License failed to deactivate."
+msgstr "ביטול הפעלת הרישיון נכשלה."
+
+#: class-lite-tracking.php:153
+msgid "Rate PB Sandwich!"
+msgstr "דרג את PB Sandwich!"
+
+#: class-lite-tracking.php:154
+msgid ""
+"Hey there!<br>It looks like you've been actively building your pages for "
+"more than an hour now. I'd like to ask a favor from you and rate Page "
+"Builder Sandwich in the WordPress.org plugin directory. Getting a great "
+"review from you would be awesome!"
+msgstr "היי! <br> זה נראה כאילו אתה כבר פעיל בבניית הדפים שלך במשך יותר משעה. הייתי רוצה לבקש ממך טובה לדרג את Page Builder Sandwich באתר WordPress.org. קבלת ביקורת טובה ממך תהיה מדהימה!"
+
+#: class-lite-tracking.php:155
+msgid "Sure I'll rate"
+msgstr "בטח שאני אדרג"
+
+#: class-lite-tracking.php:156
+msgid "Maybe later"
+msgstr "אולי אחר כך"
+
+#: class-meta-box.php:88
+msgid ""
+"You will need to save your %s first before you can edit it with Page Builder"
+" Sandwich."
+msgstr "אתה צריך לשמור את ה %s הראשון שלך לפני שתוכל לערוך אותו עם Page Builder Sandwich."
+
+#: class-meta-box.php:110
+msgid "Visit this %s in your front-end to begin editing."
+msgstr "בקר את זה %s בעמוד הפרונטלי כדי להתחיל בעריכה."
+
+#: class-meta-box.php116, class-page-builder-sandwich.php:299
+msgid "Edit with Page Builder Sandwich"
+msgstr "ערוך עם Page Builder Sandwich"
+
+#: class-migration.php:76
+msgid "Page Builder Sandwich Important Update Notice"
+msgstr "Page Builder Sandwich הודעת עדכון חשובה "
+
+#: class-migration.php:78
+msgid ""
+"Page Builder Sandwich has been completely re-written and is now <strong>a "
+"frontend page builder</strong>! Your content will need to be migrated to the"
+" new system for it to work correctly."
+msgstr "Page Builder Sandwich כבר נכתב מחדש לחלוטין וכעת הוא <strong> הבילדר לממשק הקדמי שלך </ strong>! התוכן שלך צריך לעבור המרה למערכת החדשה כדי לעבוד כראוי."
+
+#: class-migration.php:81
+msgid ""
+"This migration process will adjust the old column structure into the new one"
+" on %d affected post(s)/page(s). Make sure to back up your site data first "
+"before proceeding."
+msgstr "תהליך המרה זה יתאים את מבנה הטור הישן לחדש %d וישפיע על עמודים/פוסטים. הקפד לגבות את הנתונים באתר שלך לפני שתמשיך."
+
+#: class-migration.php:86
+msgid "Start the migration process"
+msgstr "התחל את תהליך ההמרה"
+
+#: class-page-builder-sandwich.php306, class-translations.php:400
+msgid "Save and Update"
+msgstr ""
+
+#: class-page-builder-sandwich.php311, class-page-builder-sandwich.php322,
+#: class-translations.php:401
+msgid "Save as Draft"
+msgstr ""
+
+#: class-page-builder-sandwich.php313, class-page-builder-sandwich.php321,
+#: class-translations.php:402
+msgid "Save as Pending Review"
+msgstr ""
+
+#: class-page-builder-sandwich.php:320
+msgid "Save and Publish"
+msgstr ""
+
+#: class-page-builder-sandwich.php:337
+msgid "Cancel"
+msgstr "סגור"
+
+#: class-page-builder-sandwich.php:344
+msgid "Please wait..."
+msgstr "המתן בבקשה..."
+
+#: class-page-builder-sandwich.php:357
+msgid "Learn More About Premium"
+msgstr "מידע נוסף אודות גרסת הפרימיום"
+
+#: class-page-builder-sandwich.php:359
+msgid ""
+"Get more tools and features by upgrading to the Premium Plugin. Here're some"
+" of the stuff you'll get:"
+msgstr "קבל עוד כלים ומידע נוסף ידי שדרוג התוסף לפרימיום. הנה כמה דברים שתקבל:"
+
+#: class-page-builder-sandwich.php:360
+msgid "Premium elements"
+msgstr "אלמנטים בפרימיום"
+
+#: class-page-builder-sandwich.php:361
+msgid "Live editable Carousels"
+msgstr "קרוסלות לעריכה בזמן אמת"
+
+#: class-page-builder-sandwich.php:362
+msgid "Full-width rows"
+msgstr "שורות ברוחב מלא"
+
+#: class-page-builder-sandwich.php:363
+msgid "Background tinted images"
+msgstr "תמונות כהות ברקע"
+
+#: class-page-builder-sandwich.php:364
+msgid "More icons, Bullet icons, upload your own icons"
+msgstr "עוד איקונים, סמלי תבליט, אפשרות להעלות איקונים משלך"
+
+#: class-page-builder-sandwich.php:365
+msgid "Stylable buttons"
+msgstr "כפתורים מעוצבים"
+
+#: class-page-builder-sandwich.php:366
+msgid "More easy to use styling tools"
+msgstr "כלים לעיצוב בקלות רבה יותר"
+
+#: class-page-builder-sandwich.php:367
+msgid "Pre-designed Templates"
+msgstr "תבניות מעוצבות"
+
+#: class-page-builder-sandwich.php:368
+msgid "...and plenty more!"
+msgstr "... והרבה יותר!"
+
+#: class-page-builder-sandwich.php:369
+msgid "Learn more"
+msgstr "למד עוד"
+
+#: class-page-builder-sandwich.php:378
+msgid "Tips"
+msgstr "טיפים"
+
+#: class-page-builder-sandwich.php:379
+msgid "Some Tips"
+msgstr "כמה טיפים"
+
+#: class-page-builder-sandwich.php:380
+msgid "<em>Click</em> on your site content area and start typing"
+msgstr "<Em> לחץ </ em> על אזור התוכן באתר שלך והתחל להקליד"
+
+#: class-page-builder-sandwich.php:381
+msgid "<em>Click</em> a button on the inspector to apply styling"
+msgstr "<Em> לחץ </ em> על כפתור בפאנל הניהול כדי להחיל לעיצוב"
+
+#: class-page-builder-sandwich.php:382
+msgid "<em>Click & hold</em> to apply styles rapildy"
+msgstr "<Em> לחץ והחזק </ em> כדי להחיל סגנונות במהירות"
+
+#: class-page-builder-sandwich.php:383
+msgid "<em>Ctrl+Click</em> to reverse the styling"
+msgstr "<Em> Ctrl + לחיצה </ em> כדי לבטל עיצוב"
+
+#: class-page-builder-sandwich.php:384
+msgid "<em>Shift+Ctrl+Click</em> to reset the style"
+msgstr "<Em> Shift + Ctrl + לחיצה </ em> כדי לאפס את הסגנון"
+
+#: class-page-builder-sandwich.php:385
+msgid "<em>Click & hold</em> on content to drag them"
+msgstr "<Em> לחץ והחזק </ em> את התוכן כד לגרור אותו"
+
+#: class-page-builder-sandwich.php:386
+msgid "<em>Use arrows keys</em> to move between rows"
+msgstr "<Em> השתמש במקשי החצים </ em> כדי לעבור בין שורות"
+
+#: class-page-builder-sandwich.php:387
+msgid "<em>Drag edges</em> of images & icons to resize them"
+msgstr "<Em> גרור קצוות </ em> של תמונות ואיקונים כדי לשנות את גודלם"
+
+#: class-page-builder-sandwich.php:388
+msgid "<em>Hold shift</em> to see row outlines"
+msgstr "<Em> החזיקו את מקש Shift </ em> כדי לראות את המתארים של השורות"
+
+#: class-page-builder-sandwich.php:389
+msgid "<em>More settings</em> show up for some elements"
+msgstr "<Em>הגדרות 

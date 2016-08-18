@@ -1,0 +1,928 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: modal-portfolio\n"
+"POT-Creation-Date: 2015-11-15 20:04+0100\n"
+"PO-Revision-Date: 2015-11-15 20:04+0100\n"
+"Last-Translator: Mathieu Chartier <mathieu.chartier@internet-formation.fr>\n"
+"Language-Team: Mathieu Chartier <mathieu.chartier@internet-formation.fr>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/modal-portfolio-documentation.php:6
+#: ../inc/modal-portfolio-menus.php:58
+msgid "Readme"
+msgstr "Documentation"
+
+#: ../inc/modal-portfolio-documentation.php:8
+msgid ""
+"<strong>Modal portfolio</strong> is an image gallery plugin constituting a "
+"portfolio with filters and style effects.<br/>The extension uses a system "
+"shortcode <strong>[modal-portfolio]</strong> with options (described below)."
+msgstr ""
+"<strong>Modal portfolio</strong> est un plugin de galeries d'images "
+"constituant un portfolio avec filtres et effets de style.<br/>L'extension "
+"utilise un système de shortcode <strong>[modal-portfolio]</strong> avec "
+"options (décrites ci-dessous)."
+
+#: ../inc/modal-portfolio-documentation.php:10
+msgid ""
+"The following documentation describes the installation and overall operation "
+"of the plugin."
+msgstr ""
+"La documentation ci-dessous explique l'installation et le fonctionnement "
+"global du plugin."
+
+#: ../inc/modal-portfolio-documentation.php:12
+msgid ""
+"<em>N.B.: contact <a href=\"http://blog.internet-formation.fr/\" target="
+"\"_blank\">Mathieu Chartier</a>, the creator of the plugin, for more "
+"information.</em>"
+msgstr ""
+"<em>N.B. : n'hésitez pas à contacter <a href=\"http://blog.internet-"
+"formation.fr\" target=\"_blank\">Mathieu Chartier</a>, le créateur du "
+"plugin, pour de plus amples informations.</em>"
+
+#: ../inc/modal-portfolio-documentation.php:17
+msgid "Plugin customization"
+msgstr "Personnalisation du plugin"
+
+#: ../inc/modal-portfolio-documentation.php:18
+msgid "1. Set the general options"
+msgstr "1. Régler les options générales"
+
+#: ../inc/modal-portfolio-documentation.php:20
+msgid "Show blocks and manage desired effects"
+msgstr "Afficher les blocs et gérer les effets désirés"
+
+#: ../inc/modal-portfolio-documentation.php:22
+msgid "Choose preferential blocks to display"
+msgstr "Choisissez les blocs préférentiels à afficher"
+
+#: ../inc/modal-portfolio-documentation.php:23
+msgid "Optimize block display with customizable jQuery effects"
+msgstr ""
+"Optimisez l'affichage des blocs avec des effets jQuery personnalisables"
+
+#: ../inc/modal-portfolio-documentation.php:28
+msgid "Screenshots"
+msgstr "Captures d'écran"
+
+#: ../inc/modal-portfolio-documentation.php:35
+msgid "2. Create portfolio categories"
+msgstr "2. Créer les catégories du portfolio"
+
+#: ../inc/modal-portfolio-documentation.php:37
+msgid "Fast and simple installation !"
+msgstr "Installation simple et rapide !"
+
+#: ../inc/modal-portfolio-documentation.php:39
+msgid "Create parent and child categories (if desired)."
+msgstr "Créez des catégories parentes et enfants (si désirées)."
+
+#: ../inc/modal-portfolio-documentation.php:40
+msgid ""
+"Be careful not to do too many offspring (categories and subcategories, no "
+"more ...)."
+msgstr ""
+"Veillez à ne pas faire trop de descendances (catégories et sous-catégories, "
+"pas plus...)."
+
+#: ../inc/modal-portfolio-documentation.php:41
+msgid ""
+"Note: the plugin works well on both levels but may have some problems when "
+"there are several levels of subcategories if you do not check parent "
+"categories ..."
+msgstr ""
+"N.B. : le plugin fonctionne bien sur deux niveaux mais peut avoir quelques "
+"soucis quand il y a plusieurs niveaux de sous-catégories si vous ne cochez "
+"pas les catégories parentes..."
+
+#: ../inc/modal-portfolio-documentation.php:52
+msgid "3. Add the adapted shortcode [modal-portfolio]"
+msgstr "3. Ajouter le shortcode [modal-portfolio] adapté"
+
+#: ../inc/modal-portfolio-documentation.php:54
+msgid "Several options"
+msgstr "Plusieurs options possibles"
+
+#: ../inc/modal-portfolio-documentation.php:56
+msgid "Use the shortcode [modal-portfolio] to display all."
+msgstr "Utilisez le shortcode [modal-portfolio] pour tout afficher."
+
+#: ../inc/modal-portfolio-documentation.php:57
+msgid ""
+"Use the shortcode [modal-portfolio categorie_parente=\"category_name\"] or "
+"[modal-portfolio parent_cat=\"category_name\"] to display only the "
+"references of the selected category."
+msgstr ""
+"Utilisez le shortcode [modal-portfolio categorie_parente=\"nom_categorie\"] "
+"ou [modal-portfolio parent_cat=\"nom_categorie\"] pour n'afficher que les "
+"références de la catégorie choisie."
+
+#: ../inc/modal-portfolio-documentation.php:58
+msgid ""
+"Use the shortcode [modal-portfolio parents=1] to display the items of parent "
+"categories and the corresponding filters (hidden by default)."
+msgstr ""
+"Utilisez le shortcode [modal-portfolio parents=1] pour afficher les items "
+"des catégories parentes et les filtres correspondants (masquées par défaut)."
+
+#: ../inc/modal-portfolio-documentation.php:59
+msgid "Pair the two options if necessary as in the attached capture."
+msgstr ""
+"Couplez les deux options si nécessaire comme dans la capture ci-jointe."
+
+#: ../inc/modal-portfolio-documentation.php:70
+msgid "4. Add the items"
+msgstr "4. Ajouter les références"
+
+#: ../inc/modal-portfolio-documentation.php:72
+msgid "Fast and simple installation :"
+msgstr "Installation simple et rapide :"
+
+#: ../inc/modal-portfolio-documentation.php:74
+msgid "Add a title to your portfolio item."
+msgstr "Ajouter un titre à votre item de portfolio."
+
+#: ../inc/modal-portfolio-documentation.php:75
+msgid "Complete the description if you use the feature."
+msgstr "Remplissez la description si vous utilisez la fonctionnalité."
+
+#: ../inc/modal-portfolio-documentation.php:76
+msgid "Add a title for the thumbnail overview (optional)."
+msgstr "Ajouter un titre pour le survol des vignettes (optionnel)."
+
+#: ../inc/modal-portfolio-documentation.php:77
+msgid "Choose the post_thumbnail for the portfolio."
+msgstr "Choisissez l'image à la Une comme image de portfolio ou de galerie."
+
+#: ../inc/modal-portfolio-documentation.php:78
+msgid "Add a video to display in the modal window (optional)."
+msgstr "Ajouter une vidéo à afficher dans la fenêtre modale (optionnel)."
+
+#: ../inc/modal-portfolio-documentation.php:80
+msgid "Note: the video replaces the post thumbnail in the modal window."
+msgstr "N.B. : la vidéo remplace l'image à la Une dans la fenêtre modale."
+
+#: ../inc/modal-portfolio-documentation.php:90
+msgid "5. Adapt the CSS"
+msgstr "5. Adapter le CSS"
+
+#: ../inc/modal-portfolio-documentation.php:92
+msgid "Method 1:"
+msgstr "Méthode 1 :"
+
+#: ../inc/modal-portfolio-documentation.php:94
+msgid "Display the path to your own CSS in options."
+msgstr "Affichez le chemin de votre propre CSS dans les options."
+
+#: ../inc/modal-portfolio-documentation.php:95
+msgid "Create the corresponding stylesheet in your theme."
+msgstr "Créez la feuille de style correspondante dans votre thème."
+
+#: ../inc/modal-portfolio-documentation.php:96
+msgid "NB: leave blank if you do not want to use a particular style sheet ..."
+msgstr ""
+"N.B. : laissez vide si vous ne voulez pas utiliser une feuille de style "
+"particulière..."
+
+#: ../inc/modal-portfolio-documentation.php:98
+msgid "Method 2:"
+msgstr "Méthode 2 :"
+
+#: ../inc/modal-portfolio-documentation.php:100
+msgid "Personalize the plugin stylesheet in the style options."
+msgstr "Personnalisez la feuille de style du plugin dans les options de style."
+
+#: ../inc/modal-portfolio-documentation.php:102
+msgid "List of the CSS classes and IDs"
+msgstr "Liste des classes et ID :"
+
+#: ../inc/modal-portfolio-documentation.php:104
+msgid "Complete block for a reference"
+msgstr "bloc complet d'une référence"
+
+#: ../inc/modal-portfolio-documentation.php:105
+msgid "block information of a thumbnail"
+msgstr "bloc d'informations d'une vignette"
+
+#: ../inc/modal-portfolio-documentation.php:106
+msgid "thumbnail background (jQuery effect)"
+msgstr "fond d'écran d'une vignette (effet jQuery)"
+
+#: ../inc/modal-portfolio-documentation.php:107
+msgid "thumbnail title"
+msgstr "titre d'une vignette"
+
+#: ../inc/modal-portfolio-documentation.php:108
+msgid "thumbnail category"
+msgstr "catégorie de la vignette"
+
+#: ../inc/modal-portfolio-documentation.php:109
+msgid "block containing filters"
+msgstr "bloc contenant les filtres"
+
+#: ../inc/modal-portfolio-documentation.php:110
+msgid "filter bouton"
+msgstr "bouton d'un filtre"
+
+#: ../inc/modal-portfolio-documentation.php:111
+msgid "current filter button"
+msgstr "bouton courant d'un filtre"
+
+#: ../inc/modal-portfolio-documentation.php:112
+msgid "block containing all references and modal"
+msgstr "bloc contenant toutes les références et les modales"
+
+#: ../inc/modal-portfolio-documentation.php:113
+msgid "thumbnail block (with title and category)"
+msgstr "bloc d'une vignette (avec titre et catégorie)"
+
+#: ../inc/modal-portfolio-documentation.php:114
+msgid "class of default hidden modal"
+msgstr "classe de la modale cachée par défaut"
+
+#: ../inc/modal-portfolio-documentation.php:115
+msgid "complete block of the modal (with closing cross, etc.)"
+msgstr "bloc complet de la modale (avec croix de fermeture, etc.)"
+
+#: ../inc/modal-portfolio-documentation.php:116
+msgid "background class (overlay)"
+msgstr "couleur du fond (overlay)"
+
+#: ../inc/modal-portfolio-documentation.php:117
+msgid "modal block (content)"
+msgstr "bloc de la modale (contenu)"
+
+#: ../inc/modal-portfolio-documentation.php:118
+msgid "block in .simple-modal-wrap"
+msgstr "bloc contenu dans .simple-modal-wrap"
+
+#: ../inc/modal-portfolio-documentation.php:119
+msgid "block containing the video"
+msgstr "bloc contenant la vidéo"
+
+#: ../inc/modal-portfolio-documentation.php:120
+msgid "CSS class of the modal closing cross"
+msgstr "classe de la croix de fermeture de la modale"
+
+#: ../inc/modal-portfolio-documentation.php:121
+msgid "block that contains the information from the modal window"
+msgstr "bloc qui contient les informations de la fenêtre modale"
+
+#: ../inc/modal-portfolio-documentation.php:122
+msgid "class of the image displayed in the modal window"
+msgstr "classe de l'image affichée dans la fenêtre modale"
+
+#: ../inc/modal-portfolio-documentation.php:123
+msgid "class of content displayed in the modal"
+msgstr "classe des contenus affichés dans la modale"
+
+#: ../inc/modal-portfolio-documentation.php:124
+msgid "class of the block containing the \"Close\" button"
+msgstr "classe du bloc contenant le bouton \"Fermer\""
+
+#: ../inc/modal-portfolio-menus.php:5 ../inc/modal-portfolio-menus.php:6
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: ../inc/modal-portfolio-menus.php:7
+msgid "All items"
+msgstr "Toutes les références"
+
+#: ../inc/modal-portfolio-menus.php:8
+msgid "View item"
+msgstr "Voir la référence"
+
+#: ../inc/modal-portfolio-menus.php:9
+msgid "Add an item"
+msgstr "Ajouter une référence"
+
+#: ../inc/modal-portfolio-menus.php:10
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../inc/modal-portfolio-menus.php:11
+msgid "Edit an item"
+msgstr "Editer une référence"
+
+#: ../inc/modal-portfolio-menus.php:12
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: ../inc/modal-portfolio-menus.php:13
+msgid "Search for an item"
+msgstr "Rechercher une référence"
+
+#: ../inc/modal-portfolio-menus.php:14
+msgid "No result"
+msgstr "Aucun résultat"
+
+#: ../inc/modal-portfolio-menus.php:15
+msgid "No result in the trash"
+msgstr "Aucun résultat dans la corbeille"
+
+#: ../inc/modal-portfolio-menus.php:44
+msgid "Categories"
+msgstr "Catégories"
+
+#: ../inc/modal-portfolio-menus.php:56
+msgid "Settings"
+msgstr "Options"
+
+#: ../inc/modal-portfolio-menus.php:57
+msgid "CSS Styles"
+msgstr "Styles CSS"
+
+#: ../inc/modal-portfolio-menus.php:72
+msgid "View all categories"
+msgstr "Voir toutes les références"
+
+#: ../inc/modal-portfolio-metaboxes.php:5
+msgid "The thumbnail title"
+msgstr "Titre de la vignette"
+
+#: ../inc/modal-portfolio-metaboxes.php:9
+msgid "Add a video (overwrites the post thumbnail)"
+msgstr "Ajout d'une vidéo (remplace l'image à la Une)"
+
+#: ../inc/modal-portfolio-metaboxes.php:24
+msgid ""
+"Title displayed when hovering the thumbnail in the references page (Porfolio)"
+msgstr ""
+"Titre affiché lors du survol des vignettes dans la page des références "
+"(Porfolio)"
+
+#: ../inc/modal-portfolio-metaboxes.php:39
+msgid "Add a video using the media gallery or external URL:"
+msgstr ""
+"Ajoutez une vidéo en utilisant la galerie des médias ou une URL externe :"
+
+#: ../inc/modal-portfolio-metaboxes.php:40
+msgid "- HTML 5 video formats supported (webm, mp4 and ogg)."
+msgstr "- Formats de vidéo HTML 5 supportés (webm, mp4 et ogg)."
+
+#: ../inc/modal-portfolio-metaboxes.php:41
+msgid ""
+"- Videos from YouTube, Dailymotion and Vimeo (copy the video link in the "
+"field in this case)."
+msgstr ""
+"- Vidéos YouTube, Dailymotion ou Vimeo (copier le lien de la vidéo dans le "
+"champ dans ce cas)."
+
+#: ../inc/modal-portfolio-metaboxes.php:42
+msgid ""
+"Note: if this field is filled, it takes the place of the post thumbnail "
+"(used by default)."
+msgstr ""
+"N.B. : si ce champ est rempli, il prend la place de l'image à la Une (prise "
+"en compte par défaut)."
+
+#: ../inc/modal-portfolio-metaboxes.php:43
+msgid "Add a video"
+msgstr "Ajouter une vidéo"
+
+#: ../inc/modal-portfolio-metaboxes.php:44
+msgid "Video URL"
+msgstr "URL de la vidéo"
+
+#: ../inc/modal-portfolio-metaboxes.php:56
+msgid "Select or add a video"
+msgstr "Sélectionnez ou ajoutez une vidéo"
+
+#: ../inc/modal-portfolio-metaboxes.php:57
+msgid "Use this video"
+msgstr "Utilisez cette vidéo"
+
+#: ../inc/modal-portfolio-options.php:50 ../inc/modal-portfolio-options.php:197
+#: ../inc/modal-portfolio-styles.php:66 ../inc/modal-portfolio-styles.php:112
+#: ../inc/modal-portfolio-styles.php:161
+msgid "Save"
+msgstr "Enregistrer"
+
+#: ../inc/modal-portfolio-options.php:58
+msgid "Modal Portfolio Settings"
+msgstr "Réglages de Modal Portfolio"
+
+#: ../inc/modal-portfolio-options.php:60
+msgid ""
+"<strong>Modal portfolio</strong> is an extension to display a photo gallery "
+"(portfolio) with modal (pop- in) possibly containing a customizable "
+"description."
+msgstr ""
+"<strong>Modal portfolio</strong> est une extension destinée à afficher une "
+"galerie photo (portfolio) avec des modales (pop-in) contenant éventuellement "
+"une description personnalisable."
+
+#: ../inc/modal-portfolio-options.php:61
+msgid ""
+"Just use the shortcode <strong>[modal-portfolio]</strong> with or without "
+"options to display the references (<em>see documentation (readme section) "
+"for additional options</em>)."
+msgstr ""
+"Il suffit d'utiliser le shortcode <strong>[modal-portfolio]</strong> avec ou "
+"sans options pour afficher les références (<em>voir la documentation pour "
+"les options complémentaires</em>)."
+
+#: ../inc/modal-portfolio-options.php:62
+msgid ""
+"Multiple options are permitted to customize to best display in the modal:"
+msgstr ""
+"Plusieurs options sont permises afin de personnaliser au mieux l'affichage :"
+
+#: ../inc/modal-portfolio-options.php:64
+msgid "[modal-portfolio] to display all."
+msgstr "[modal-portfolio] pour tout afficher."
+
+#: ../inc/modal-portfolio-options.php:65
+msgid ""
+"[modal-portfolio parents=1] to display the items of parent categories and "
+"the corresponding filters."
+msgstr ""
+"[modal-portfolio parents=1] pour afficher les items des catégories parentes "
+"et les filtres correspondants."
+
+#: ../inc/modal-portfolio-options.php:66
+msgid ""
+"[modal-portfolio parent_cat=\"category_name\"] or [modal-portfolio "
+"categorie_parente=\"category_name\"] to show the child categories of items "
+"\"category_name\"."
+msgstr ""
+"[modal-portfolio parent_cat=\"nom_categorie\"] ou [modal-portfolio "
+"categorie_parente=\"nom_categorie\"] pour afficher les items des catégories "
+"filles de \"nom_categorie\"."
+
+#: ../inc/modal-portfolio-options.php:68
+msgid ""
+"<em>N.B.: contact <a href=\"http://blog.internet-formation.fr/\" target="
+"\"_blank\">Mathieu Chartier</a>, the creator of the plugin (French), for "
+"more information.</em>"
+msgstr ""
+"<em>N.B. : cette extension n'est pas parfaite, n'hésitez pas à contacter <a "
+"href=\"http://blog.internet-formation.fr\" target=\"_blank\">Mathieu "
+"Chartier</a>, le créateur du plugin, pour de plus amples informations.</em>"
+
+#: ../inc/modal-portfolio-options.php:138
+msgid "General Settings"
+msgstr "Paramétrage général"
+
+#: ../inc/modal-portfolio-options.php:141
+#: ../inc/modal-portfolio-options.php:149
+#: ../inc/modal-portfolio-options.php:157
+#: ../inc/modal-portfolio-options.php:165
+#: ../inc/modal-portfolio-options.php:173
+#: ../inc/modal-portfolio-options.php:181
+#: ../inc/modal-portfolio-options.php:189
+#: ../inc/modal-portfolio-options.php:211
+#: ../inc/modal-portfolio-options.php:247 ../inc/modal-portfolio-styles.php:104
+msgid "Yes"
+msgstr "Oui"
+
+#: ../inc/modal-portfolio-options.php:142
+#: ../inc/modal-portfolio-options.php:150
+#: ../inc/modal-portfolio-options.php:158
+#: ../inc/modal-portfolio-options.php:166
+#: ../inc/modal-portfolio-options.php:174
+#: ../inc/modal-portfolio-options.php:182
+#: ../inc/modal-portfolio-options.php:190
+#: ../inc/modal-portfolio-options.php:212
+#: ../inc/modal-portfolio-options.php:248 ../inc/modal-portfolio-styles.php:105
+msgid "No"
+msgstr "Non"
+
+#: ../inc/modal-portfolio-options.php:144
+msgid "Display a default image?"
+msgstr "Afficher une image par défaut ?"
+
+#: ../inc/modal-portfolio-options.php:145
+msgid ""
+"The option to display an image when the reference has none (recommended)."
+msgstr ""
+"L'option permet d'afficher une image quand une référence n'en propose pas "
+"(recommandé)."
+
+#: ../inc/modal-portfolio-options.php:152
+msgid "Display filters?"
+msgstr "Afficher les filtres ?"
+
+#: ../inc/modal-portfolio-options.php:153
+msgid "The option to hide the category filters portfolios."
+msgstr "L'option permet de masquer les filtres de catégories des portfolios."
+
+#: ../inc/modal-portfolio-options.php:160
+msgid "Show the \"All\" filter?"
+msgstr "Afficher le filtre \"Tout\" ?"
+
+#: ../inc/modal-portfolio-options.php:161
+msgid "This option allows to hide the filter that displays all references."
+msgstr ""
+"L'option permet de masquer le filtre qui affiche toutes les références."
+
+#: ../inc/modal-portfolio-options.php:168
+msgid "Show description in modal window?"
+msgstr "Afficher la description dans la fenêtre modale ?"
+
+#: ../inc/modal-portfolio-options.php:169
+msgid ""
+"The option allows you to change the modal window to display the image with "
+"or without description."
+msgstr ""
+"L'option permet de modifier la fenêtre modale pour afficher l'image avec ou "
+"sans description."
+
+#: ../inc/modal-portfolio-options.php:176
+msgid "Show title in the modal window?"
+msgstr "Afficher le titre dans la fenêtre modale ?"
+
+#: ../inc/modal-portfolio-options.php:177
+msgid ""
+"The option allows you to change the modal window to display the image with "
+"or without title."
+msgstr ""
+"L'option permet de modifier la fenêtre modale pour afficher l'image avec ou "
+"sans titre."
+
+#: ../inc/modal-portfolio-options.php:184
+msgid "Show title and category when hovering thumbnail?"
+msgstr "Afficher le titre et la catégorie au survol des vignettes ?"
+
+#: ../inc/modal-portfolio-options.php:185
+msgid "The option to hide text effects when hovering the thumbnail."
+msgstr ""
+"L'option permet de masquer les effets de texte au survol des vignettes."
+
+#: ../inc/modal-portfolio-options.php:192
+msgid "View the \"Close\" button in the modal window?"
+msgstr "Afficher le bouton \"Fermer\" dans la fenêtre modale ?"
+
+#: ../inc/modal-portfolio-options.php:193
+msgid "The option to hide the close button."
+msgstr "L'option permet de masquer le bouton de fermeture."
+
+#: ../inc/modal-portfolio-options.php:202
+msgid "Customizing jQuery effects"
+msgstr "Personnalisation des effets jQuery"
+
+#: ../inc/modal-portfolio-options.php:206
+msgid "Background opacity (overlay)"
+msgstr "Niveau d'opacité du fond (overlay)"
+
+#: ../inc/modal-portfolio-options.php:207
+msgid "Ability to hide the background by setting the value to 0."
+msgstr "Possibilité de masquer le fond en mettant la valeur à 0."
+
+#: ../inc/modal-portfolio-options.php:214
+msgid "Close modal clicking on the overlay?"
+msgstr "Fermer la modale en cliquant sur le fond (overlay) ?"
+
+#: ../inc/modal-portfolio-options.php:215
+msgid ""
+"The option closes the modal window without pressing the \"Close\" button."
+msgstr ""
+"L'option permet de fermer la fenêtre modale sans appuyer sur le bouton "
+"\"Fermer\"."
+
+#: ../inc/modal-portfolio-options.php:219
+msgid "Background color (overlay)"
+msgstr "Couleur du fond (overlay)"
+
+#: ../inc/modal-portfolio-options.php:220
+msgid "You can hide the overlay emptying the field."
+msgstr "Il est possible de masquer l'overlay en vidant le champ."
+
+#: ../inc/modal-portfolio-options.php:225
+msgid "Display duration of the overlay (in ms)"
+msgstr "Durée d'affichage du fond (en ms)"
+
+#: ../inc/modal-portfolio-options.php:226
+msgid "Select the number of milliseconds helpful to show the overlay."
+msgstr "Sélectionnez le nombre de millisecondes utiles pour afficher le fond."
+
+#: ../inc/modal-portfolio-options.php:231
+msgid "Duration of effect to display the modal window and the contents (in ms)"
+msgstr "Durée d'affichage de la modale et des contenus (en ms)"
+
+#: ../inc/modal-portfolio-options.php:232
+msgid ""
+"Select the number of milliseconds to display the modal window and the content"
+msgstr ""
+"Sélectionnez le nombre de millisecondes utiles pour afficher la modale et "
+"les contenus"
+
+#: ../inc/modal-portfolio-options.php:236
+#: ../inc/modal-portfolio-options.php:257
+#: ../inc/modal-portfolio-options.php:278
+msgid "None"
+msgstr "Aucun"
+
+#: ../inc/modal-portfolio-options.php:237
+msgid "fadeIn"
+msgstr "fadeIn"
+
+#: ../inc/modal-portfolio-options.php:238
+msgid "fadeOut"
+msgstr "fadeOut"
+
+#: ../inc/modal-portfolio-options.php:239
+msgid "SlideUp"
+msgstr "SlideUp"
+
+#: ../inc/modal-portfolio-options.php:240
+msgid "slideDown"
+msgstr "slideDown"
+
+#: ../inc/modal-portfolio-options.php:242
+msgid "Effect of style applied to the opening of the modal window"
+msgstr "Effet de style appliqué à l'ouverture de la fenêtre modale"
+
+#: ../inc/modal-portfolio-options.php:243
+msgid "Only the opening jQuery effect considers this option!"
+msgstr "Seul l'effet jQuery d'ouverture prend en compte cette option !"
+
+#: ../inc/modal-portfolio-options.php:250
+msgid "Apply effect to the title thumbnail?"
+msgstr "Appliquer un effet pour le titre des vignettes ?"
+
+#: ../inc/modal-portfolio-options.php:251
+msgid "Blocks jQuery effects on thumbnail title"
+msgstr "Bloque les effets jQuery sur les titres de vignettes"
+
+#: ../inc/modal-portfolio-options.php:265
+msgid "First effect applied to the text of the thumbnail"
+msgstr "Premier effet appliqué au texte de la vignette"
+
+#: ../inc/modal-portfolio-options.php:266
+msgid "Effect applied when hovering the thumbnail !"
+msgstr "Effet appliqué au survol de la vignette !"
+
+#: ../inc/modal-portfolio-options.php:271
+msgid "Duration of the first effect (in ms)"
+msgstr "Durée du premier effet (en ms)"
+
+#: ../inc/modal-portfolio-options.php:272
+msgid "Select the number of milliseconds for the first useful effect."
+msgstr "Sélectionnez le nombre de millisecondes utiles pour le premier effet."
+
+#: ../inc/modal-portfolio-options.php:286
+msgid "Second effect applied to the thumbnail text"
+msgstr "Second effet appliqué au texte de la vignette"
+
+#: ../inc/modal-portfolio-options.php:287
+msgid "Effect applied after hovering the thumbnail"
+msgstr "Effet appliqué lorsque l'on quitte le survol de la vignette !"
+
+#: ../inc/modal-portfolio-options.php:292
+msgid "Duration of the second effect (in ms)"
+msgstr "Durée du second effet (en ms)"
+
+#: ../inc/modal-portfolio-options.php:293
+msgid "Select the number of milliseconds for the second useful effect."
+msgstr "Sélectionnez le nombre de millisecondes utiles pour le second effet."
+
+#: ../inc/modal-portfolio-shortcode.php:31
+msgid "All"
+msgstr "Tous"
+
+#: ../inc/modal-portfolio-shortcode.php:285
+msgid "Video format not supported by your browser, you can "
+msgstr "Format vidéo non supporté par votre navigateur, vous pouvez "
+
+#: ../inc/modal-portfolio-shortcode.php:285
+msgid "download the video"
+msgstr "télécharger la vidéo"
+
+#: ../inc/modal-portfolio-shortcode.php:308
+msgid "Close"
+msgstr "Fermer"
+
+#: ../inc/modal-portfolio-styles.php:74
+msgid "Modal Portfolio Styles"
+msgstr "Styles CSS"
+
+#: ../inc/modal-portfolio-styles.php:96
+msgid "CSS Settings"
+msgstr "Options générales des CSS"
+
+#: ../inc/modal-portfolio-styles.php:99
+msgid "URL of the CSS file of the theme"
+msgstr "URL du fichier CSS du thème"
+
+#: ../inc/modal-portfolio-styles.php:100
+msgid ""
+"The option allows to choose another if desired style sheet (leave empty to "
+"not use CSS)"
+msgstr ""
+"L'option permet de choisir une autre feuille de style si désirée (laisser "
+"vide pour ne pas utiliser de CSS)"
+
+#: ../inc/modal-portfolio-styles.php:100
+msgid "by default."
+msgstr "par défaut."
+
+#: ../inc/modal-portfolio-styles.php:107
+msgid "Use dynamic CSS?"
+msgstr "Utiliser des CSS dynamiques ?"
+
+#: ../inc/modal-portfolio-styles.php:108
+msgid ""
+"If \"yes\" is selected, the plugin uses a file style.php instead of style."
+"css (and makes the right options used)."
+msgstr ""
+"Si \"oui\" est sélectionné, le plugin utilise un fichier style.php plutôt "
+"que style.css (et rend les options de droite utilisables)."
+
+#: ../inc/modal-portfolio-styles.php:116
+msgid "Style of the effects"
+msgstr "Style des effets"
+
+#: ../inc/modal-portfolio-styles.php:119
+msgid "Color of the rollover effect"
+msgstr "Couleur des textes dans l'effet de survol"
+
+#: ../inc/modal-portfolio-styles.php:123
+msgid "Background-color of the rollover effect"
+msgstr "Couleur de fond dans l'effet de survol"
+
+#: ../inc/modal-portfolio-styles.php:127
+msgid "top"
+msgstr "Haut"
+
+#: ../inc/modal-portfolio-styles.php:128
+msgid "bottom"
+msgstr "Bas"
+
+#: ../inc/modal-portfolio-styles.php:130
+msgid "Positioning the rollover effect over thumbnails"
+msgstr "Positionnement de l'effet de survol au-dessus des vignettes"
+
+#: ../inc/modal-portfolio-styles.php:134
+msgid "Height of the effect (in px)"
+msgstr "Hauteur du bloc de l'effet de survol (en px)"
+
+#: ../inc/modal-portfolio-styles.php:138
+msgid "Global padding of the effect (in px)"
+msgstr "Padding général de l'effet de survol (en px)"
+
+#: ../inc/modal-portfolio-styles.php:142
+msgid "left"
+msgstr "gauche"
+
+#: ../inc/modal-portfolio-styles.php:143
+msgid "center"
+msgstr "centré"
+
+#: ../inc/modal-portfolio-styles.php:144
+msgid "right"
+msgstr "droite"
+
+#: ../inc/modal-portfolio-styles.php:145
+msgid "justify"
+msgstr "justifié"
+
+#: ../inc/modal-portfolio-styles.php:147
+msgid "Text alignment in the rollover effect"
+msgstr "Alignement du texte dans l'effet de survol"
+
+#: ../inc/modal-portfolio-styles.php:150
+msgid "Style of the thumbnails"
+msgstr "Style des vignettes"
+
+#: ../inc/modal-portfolio-styles.php:153
+msgid "Width of the thumbnails"
+msgstr "Largeur des vignettes"
+
+#: ../inc/modal-portfolio-styles.php:157
+msgid "Margin of the thumbnails"
+msgstr "Marges appliquées aux vignettes"
+
+#: ../inc/modal-portfolio-styles.php:167
+msgid "Style of the modal window"
+msgstr "Style de la fenêtre modale"
+
+#: ../inc/modal-portfolio-styles.php:170 ../inc/modal-portfolio-styles.php:236
+msgid "Rounded corners"
+msgstr "Coins arrondis"
+
+#: ../inc/modal-portfolio-styles.php:171 ../inc/modal-portfolio-styles.php:237
+msgid "Square corners"
+msgstr "Coins carrés"
+
+#: ../inc/modal-portfolio-styles.php:173
+msgid "Type of corners for the modal window"
+msgstr "Type de coins utilisés pour la fenêtre modale"
+
+#: ../inc/modal-portfolio-styles.php:177 ../inc/modal-portfolio-styles.php:243
+msgid "Border radius (if \"rounded corners\")"
+msgstr "Rayon des coins arrondis (si l'option est sélectionnée)"
+
+#: ../inc/modal-portfolio-styles.php:181
+msgid "Width of the modal window"
+msgstr "Largeur de la fenêtre modale"
+
+#: ../inc/modal-portfolio-styles.php:185
+msgid "Height of the modal window"
+msgstr "Hauteur de la fenêtre modale"
+
+#: ../inc/modal-portfolio-styles.php:189
+msgid "Width of the left column in the modal window"
+msgstr "Largeur de la colonne de gauche dans la fenêtre modale"
+
+#: ../inc/modal-portfolio-styles.php:190
+msgid ""
+"The width of the left column corresponds to the width of the image or video."
+msgstr ""
+"La largeur de la colonne de gauche correspond à la largeur de l'image ou de "
+"la vidéo."
+
+#: ../inc/modal-portfolio-styles.php:194
+msgid "Width of the right column in the modal window"
+msgstr "Largeur de la colonne de droite dans la fenêtre modale"
+
+#: ../inc/modal-portfolio-styles.php:198
+msgid "Margin-right of the left column (space between the columns)"
+msgstr "Marge à droite de la colonne de gauche (espace entre les colonnes)"
+
+#: ../inc/modal-portfolio-styles.php:201
+msgid "Style of the filters"
+msgstr "Style des filtres"
+
+#: ../inc/modal-portfolio-styles.php:204
+msgid "Link button background-color"
+msgstr "Couleur du fond du bouton"
+
+#: ../inc/modal-portfolio-styles.php:208
+msgid "Hover button background-color"
+msgstr "Couleur de fond du bouton (au survol)"
+
+#: ../inc/modal-portfolio-styles.php:212
+msgid "Link button color"
+msgstr "Couleur du texte du bouton"
+
+#: ../inc/modal-portfolio-styles.php:216
+msgid "Hover button color"
+msgstr "Couleur du texte du bouton (au survol)"
+
+#: ../inc/modal-portfolio-styles.php:221
+msgid "none"
+msgstr "aucun"
+
+#: ../inc/modal-portfolio-styles.php:222
+msgid "solid"
+msgstr ""
+
+#: ../inc/modal-portfolio-styles.php:223
+msgid "dotted"
+msgstr ""
+
+#: ../inc/modal-portfolio-styles.php:224
+msgid "dashed"
+msgstr ""
+
+#: ../inc/modal-portfolio-styles.php:225
+msgid "double"
+msgstr ""
+
+#: ../inc/modal-portfolio-styles.php:226
+msgid "groove"
+msgstr ""
+
+#: ../inc/modal-portfolio-styles.php:227
+msgid "ridge"
+msgstr ""
+
+#: ../inc/modal-portfolio-styles.php:228
+msgid "inset"
+msgstr ""
+
+#: ../inc/modal-portfolio-styles.php:229
+msgid "outset"
+msgstr ""
+
+#: ../inc/modal-portfolio-styles.php:232
+msgid "Borders style"
+msgstr "Style des bordures"
+
+#: ../inc/modal-portfolio-styles.php:239
+msgid "Type of corners"
+msgstr "Type de coins"
+
+#: ../inc/modal-portfolio-styles.php:247
+msgid "Margin of the filters"
+msgstr "Marges appliquées aux filtres"
+
+#~ msgid "Style of the thumbnails and of the modal window"
+#~ msgstr "Style des vignettes et de la fenêtre modale"
+
+#~ msgid "Customizing the default stylesheet"
+#~ msgstr "Personnalisation des CSS par défaut"
+
+#~ msgid "Overall color"
+#~ msgstr "Couleur générale"
